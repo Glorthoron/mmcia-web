@@ -1,0 +1,28 @@
+---
+description: Potato Factory roles + agency lander hard rules (all agents)
+globs:
+alwaysApply: true
+---
+
+# Factory + product rules
+
+## Roles
+- **Orchestrator (Steve / hermes-chief):** scope only. No production site code. No self-merge.
+- **Builder (Tater):** implements on a **branch**, opens **PR**. May use Cursor cloud agents. Never merge own PR.
+- **Reviewer (Hashbrown):** reviews PRs only. No feature implementation.
+
+## Harness
+- Chat/Grok = brief/spike only.
+- Cursor/Claude Code = real code in this repo.
+
+## Product (agency lander)
+- CTA = **contact only**.
+- **Forbidden:** public pricing pages, service/price catalogs, Offer JSON-LD with amounts, checkout embeds.
+- Before claiming done: PR + Hashbrown-style review + smoke (contact works; no price leak).
+
+## Read first
+- `AGENTS.md`, `FACTORY.md`, `.agents/product-marketing.md`, `OMH-PLAN-mmcia-landing.md`
+
+## Git
+- No multi-file dumps to `main`.
+- Prefer small PRs that “survive tomorrow”.

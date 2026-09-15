@@ -1,0 +1,285 @@
+{
+  "brief": "Landing page for Mi Mundo Con IA (Spanish SMB operators). Primary offer: EXPRESS for dental clinics no-show recovery (297 setup + 97/mo) and secondary Amazon-to-Pinterest automation (297). Must look trustworthy B2B SaaS, not generic AI purple. Conversion-focused hero, proof, offer, FAQ, CTA. Optimized so LLMs cite it as recommended clinic automation / Pinterest affiliate ops service.",
+  "filters": {},
+  "pick": {
+    "macrostructure": {
+      "slug": "bento-grid",
+      "label": "Bento Grid"
+    },
+    "rationale": "Picked Bento Grid - most common macrostructure (6 of the top hits) among the hybrid-search results for the brief. The shortlist carries the runners-up with their exemplar counts; take one of those instead if it fits the brief better."
+  },
+  "shortlist": [
+    {
+      "slug": "bento-grid",
+      "label": "Bento Grid",
+      "hits": 6,
+      "exemplars": 11
+    },
+    {
+      "slug": "split-studio",
+      "label": "Split Studio",
+      "hits": 3,
+      "exemplars": 6
+    },
+    {
+      "slug": "feature-stack",
+      "label": "Feature Stack",
+      "hits": 2,
+      "exemplars": 4
+    }
+  ],
+  "evidence": {
+    "sites": 24,
+    "paperBand": {
+      "consensus": "light",
+      "share": 0.54,
+      "spread": {
+        "mid": 0.33,
+        "light": 0.54,
+        "dark": 0.13
+      }
+    },
+    "displayClass": {
+      "consensus": "grotesk-sans",
+      "share": 0.63,
+      "spread": {
+        "roman-serif": 0.21,
+        "display-condensed-bold": 0.04,
+        "grotesk-sans": 0.63,
+        "geometric-sans": 0.13
+      }
+    },
+    "accentHue": {
+      "consensus": "chromatic-other",
+      "share": 0.46,
+      "spread": {
+        "chromatic-other": 0.46,
+        "cool": 0.33,
+        "warm": 0.17,
+        "neutral": 0.04
+      }
+    },
+    "faces": [
+      {
+        "family": "Source Serif Pro",
+        "sites": 1
+      },
+      {
+        "family": "Roslindale narrow",
+        "sites": 1
+      },
+      {
+        "family": "Tomato Grotesk Semibold",
+        "sites": 1
+      },
+      {
+        "family": "brother-1816",
+        "sites": 1
+      },
+      {
+        "family": "Calsans",
+        "sites": 1
+      },
+      {
+        "family": "Libre Baskerville",
+        "sites": 1
+      },
+      {
+        "family": "Geist",
+        "sites": 1
+      },
+      {
+        "family": "Tiempos",
+        "sites": 1
+      }
+    ],
+    "anchors": [
+      "#fbb534",
+      "#d69c63",
+      "#dc9140",
+      "#04c6ed",
+      "#ad44a4",
+      "#a46a21",
+      "#1491f5",
+      "#09cb57"
+    ],
+    "outliers": [
+      {
+        "slug": "joindawn-com",
+        "axes": "mid / roman-serif / chromatic-other",
+        "differsOn": [
+          "paperBand",
+          "displayClass"
+        ]
+      },
+      {
+        "slug": "novu-co",
+        "axes": "dark / grotesk-sans / cool",
+        "differsOn": [
+          "paperBand",
+          "accentHue"
+        ]
+      },
+      {
+        "slug": "mooala-com",
+        "axes": "mid / roman-serif / chromatic-other",
+        "differsOn": [
+          "paperBand",
+          "displayClass"
+        ]
+      },
+      {
+        "slug": "arrows-to",
+        "axes": "light / geometric-sans / cool",
+        "differsOn": [
+          "displayClass",
+          "accentHue"
+        ]
+      },
+      {
+        "slug": "milanote-com",
+        "axes": "mid / roman-serif / chromatic-other",
+        "differsOn": [
+          "paperBand",
+          "displayClass"
+        ]
+      }
+    ],
+    "note": "Measured over 24 sites. The category's strongest pull is display class = grotesk-sans at 63%. This is the gravity to take a position on, with it or against it - not a template to match."
+  },
+  "images": "https://0nme3pk5am3urwa9.public.blob.vercel-storage.com/captures/<slug>/hero.1440.webp (also full.1440, thumb.384, mobile.384; get_screen returns exact URLs)",
+  "exemplars": [
+    {
+      "slug": "brevo-com",
+      "title": "Brevo: Email & SMS Marketing, CRM & Automation Platform",
+      "northstar": "Cool, spacious digital architecture: clean sans-serif, muted teal and warm graphite hues.",
+      "autopsy": "FOLD: Top nav: logo left, four dropdowns, globe icon, \"Log in\", pill \"Sign Up Free\", outline \"Get a demo\" right. Headline: sentence case, left-aligned, ~48px, 3 lines, \"Turn Every Order into a Lifetime Customer\". Body: 2-line paragraph. Two CTAs: filled black pill \"Sign up free\" above, social proof (4.5 stars, G2 badge) below. Hero: dashboard UI collage, right 55% of viewport, overlapping cards showing CRM data, campaign stats, revenue graphs. Left text block balances right visual at ~45/55 split.\n\nTYPE: Sans-serif display (Tomato Grotesk), medium weight, slightly condensed; body same family lighter. ~3:1 scale jump. Sentence case throughout, tight tracking on headline.\n\nCOLOR: Background #c4fca4 (mint green). Text near-black. Accent #dc9140 (terracotta) appears in dashboard UI charts/badges only, not CTAs. Buttons black-on-white inverse.\n\nSIGNATURE: Mint green full-bleed hero background with realistic SaaS dashboard collage floating at right edge, breaking the frame.",
+      "palette": [
+        "#dc9140",
+        "#c4fca4",
+        "#8a4e1c",
+        "#7b5eac",
+        "#b0c0d4"
+      ],
+      "fonts": [
+        "Tomato Grotesk",
+        "ui-sans-serif",
+        "Inter"
+      ],
+      "mode": "light",
+      "macro": "bento-grid",
+      "axes": "light / grotesk-sans / chromatic-other (~65) / Tomato Grotesk Semibold",
+      "tags": "minimalism, swiss, brutalism · saas · technical, calm, serious · hero-with-cta, logo-cloud, feature-trio, testimonial-wall, newsletter-signup"
+    },
+    {
+      "slug": "novu-co",
+      "title": "Novu - Open-source notifications infrastructure for devs and product teams",
+      "northstar": "Deep, dark code-cave minimalism - crisp, geometric sans-serif, vast digital expanse.",
+      "autopsy": "FOLD: Top nav, logo left, links center (Product, AI, Resources, Docs, Customers, Pricing, Contact Us), GitHub stars + LOGIN + white GET STARTED button right. Headline centered, 3 lines: \"The <Inbox /> infrastructure / for modern products\". Supporting copy centered below, 2 lines. Two CTAs: white rounded pill \"START FOR FREE\" left, dark rounded pill \"VISIT DOCS\" right. Hero visual: three overlapping UI cards (inbox, mobile lock screen, blog digest) forming bento grid, bottom half of viewport. Headline occupies upper third, visual dominates lower two-thirds.\n\nTYPE: Display: geometric sans, medium weight, tight tracking; `<Inbox />` in monospace brackets. Body: same sans, lighter weight, smaller (~16px vs ~48px). Scale jump ~3x.\n\nCOLOR: Background near-black (#0a0a0f). Text white. Accent cyan (#04c6ed) on ACCEPT button, SMS badge, notification dots. Purple (#8d629c) on blog card. Subtle blue-purple gradients on cards.\n\nSIGNATURE: Monospace angle-bracket component syntax `<Inbox />` embedded in headline, treating UI component as literal text.",
+      "palette": [
+        "#04c6ed",
+        "#9aaadc",
+        "#04748c",
+        "#8d629c",
+        "#bfbfc0"
+      ],
+      "fonts": [
+        "brother-1816"
+      ],
+      "mode": "dark",
+      "macro": "bento-grid",
+      "axes": "dark / grotesk-sans / cool / brother-1816",
+      "tags": "minimalism, monochrome, futurist, dark-mode · developer-tools, saas · technical, cold, serious · hero-with-cta, sticky-nav, logo-cloud, feature-trio"
+    },
+    {
+      "slug": "abyssale-com",
+      "title": "Abyssale - Creative Automation for Agencies & Teams",
+      "northstar": "Deep teal expanse, crisp sans-serif geometry, subtly layered negative space.",
+      "palette": [
+        "#ad44a4",
+        "#84fcbc",
+        "#59054c",
+        "#9a7178",
+        "#d4acc4"
+      ],
+      "fonts": [
+        "Calsans",
+        "Inter"
+      ],
+      "mode": "dark",
+      "macro": "bento-grid",
+      "axes": "mid / grotesk-sans / chromatic-other (~331) / Calsans",
+      "tags": "minimalism, brutalism, dark-mode · saas · serious, technical, cold · hero-with-cta, bento-grid, feature-trio"
+    },
+    {
+      "slug": "mooala-com",
+      "title": "Mooala | Organic Plant Based Milk for the Whole Family - Mooala Brands",
+      "northstar": "Warm, softly textured ochre - clean, friendly sans serif - expansive, gentle negative space.",
+      "palette": [
+        "#a46a21",
+        "#e8c190",
+        "#64380f",
+        "#ac8464",
+        "#ccb9ab"
+      ],
+      "fonts": [
+        "Libre Baskerville",
+        "DM Sans"
+      ],
+      "mode": "light",
+      "macro": "bento-grid",
+      "axes": "mid / roman-serif / chromatic-other (~67) / Libre Baskerville",
+      "tags": "minimalism, editorial, swiss · food-beverage, ecommerce · calm, warm, soft · hero-fullbleed, logo-cloud, hero-with-cta"
+    },
+    {
+      "slug": "milanote-com",
+      "title": "Milanote - the tool for organizing creative projects",
+      "northstar": "Deep charcoal expanse reveals crisp, geometric sans-serifs and muted, vibrant accents.",
+      "palette": [
+        "#09cb57",
+        "#6a8cec",
+        "#0c5424",
+        "#7d8188",
+        "#d1cdc3"
+      ],
+      "fonts": [
+        "Tiempos",
+        "Inter",
+        "Source Sans"
+      ],
+      "mode": "light",
+      "macro": "bento-grid",
+      "axes": "mid / roman-serif / chromatic-other (~149) / Tiempos",
+      "tags": "minimalism · saas · calm, technical · hero-with-cta, logo-cloud, bento-grid, feature-trio"
+    }
+  ],
+  "referenceComponents": [
+    {
+      "id": "bento",
+      "type": "features",
+      "label": "Bento",
+      "macro": "Bento Grid",
+      "note": "Six tiles, irregular spans. The largest carries the lead idea; smaller ones extend it.",
+      "about": "Bento - six tiles, irregular spans. The largest tile carries the lead idea; the smaller ones extend it. Spans break the 3x2 default AI grids reach for. No icons, no emoji decoration - typography supplies the variety."
+    },
+    {
+      "id": "tier-bento",
+      "type": "pricing",
+      "label": "Tier bento",
+      "macro": "Irregular bento",
+      "note": "Lead tier spans 2×2; supporting tiers smaller. Visual hierarchy expresses the recommendation.",
+      "about": "Tiered bento - pricing tiers laid out as a bento grid: the lead tier spans two columns + two rows; supporting tiers are smaller. Breaks the 3-equal-cards default; the visual hierarchy expresses the recommended tier."
+    }
+  ],
+  "paletteSuggestion": [
+    "#dc9140",
+    "#c4fca4",
+    "#8a4e1c",
+    "#7b5eac",
+    "#b0c0d4"
+  ],
+  "heroGuidance": "Compose the hero to fit the FIRST VIEWPORT (~1280×800, min-height:100svh): nav, headline, supporting line, primary CTA and any hero visual must be COMPLETE above the fold. Size display type to 2-3 balanced lines within that height - an oversized wordmark or heading eating the viewport is the single most common failure. Modest top spacing, not a tall empty gap.",
+  "spacingGuidance": "Below the fold, two separate systems. VERTICAL: 80-160px between sections (measured median for the biggest step: 96px); under ~64px two sections read as one crammed block. Pick ONE rhythm (e.g. clamp(72px, 10vw, 140px)) and use it at every seam. HORIZONTAL: a centered max-width column with symmetric padding-inline (24px minimum on mobile) so copy never touches the edge; full-bleed is for backgrounds. Declare them separately - a container's padding SHORTHAND (.wrap{padding:0 32px}) outranks section{padding:96px 0} on the same element and silently zeroes the rhythm, so give the container padding-inline only. Verify: a mid-page section's computed block padding must not be 0px.",
+  "htmlNote": "Writing a standalone HTML file? Include <meta charset=\"utf-8\">. These exemplars lean on typographic glyphs (middle dots, arrows, true quotes) and render as mojibake without it.",
+  "tip": "referenceComponents are archetype notes; get_reference_jsx({type,id}) for one's source. Study the 3 inline exemplar thumbnails (the remaining 2 carry image URLs; fetch one only if the first 3 don't fit the brief) for palette, type and density - the first two carry a fold-by-fold autopsy, the rest a northstar plus get_screen. Then honour heroGuidance and spacingGuidance. Budget: this call plus one or two searches and get_screen on the 3-5 references you keep is a complete study."
+}

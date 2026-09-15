@@ -1,0 +1,20 @@
+# secrets / local noise
+.env
+.env.*
+!.env.example
+*.pem
+node_modules/
+.DS_Store
+dist/
+.next/
+.vercel/
+
+# sensitive / bulky local extracts (never push)
+jefe-blob-*.txt
+inspo-recommend-raw.txt
+*.blob
+
+# local absolute symlinks (reinstall via README)
+vendor/
+
+.agents/skills
