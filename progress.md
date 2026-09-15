@@ -61,6 +61,13 @@
 5. CI `factory-gate.yml` job `no-price-leak`.
 6. Branch protection on `main`: 1 approving review, dismiss stale, enforce admins, no force/delete, required check `no-price-leak`.
 
+### Verified
+- PR #1 merged via factory path; CI `no-price-leak` green
+- Protection: enforce_admins, linear history, required check `no-price-leak`, no force/delete
+- Ruleset `main-factory`: PRs required on main (0 approvals — solo; raise to 1 in Phase B when Hashbrown bot/account exists)
+- Visibility: **public** (private + branch protection needs GitHub Pro)
+
 ### Next
 - Phase B when Samuel says go: Tater + Hashbrown profiles/bots
+- Then raise required approvals to 1
 - Prove one tiny PR loop (Phase F mini)

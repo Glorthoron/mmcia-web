@@ -55,18 +55,14 @@ Never: Grok Bot as production coding harness.
 
 ## Build order (do this, in order)
 
-### Phase A — Repo is the source of truth (1 session)
+### Phase A — Repo is the source of truth (1 session) — **DONE 2026-09-16**
 
-1. Create GitHub repo for the lander (empty or from `inspo-web-plan`).
-2. Commit already: `AGENTS.md`, `FACTORY.md`, `.agents/`, plan docs.
-3. Add:
-   - `.cursor/rules/factory.mdc` (or rules) = roles + no prices + PR required
-   - `CODEOWNERS` optional
-   - Branch protection on `main`: require PR + 1 approval
-4. Install engineering skills **into the repo** (not only Hermes profile):
-   - keep marketingskills
-   - add a thin `skills/pr-review/` (Hashbrown checklist as skill)
-
+1. ✅ Repo: https://github.com/Glorthoron/mmcia-web (public; private protection needs Pro)
+2. ✅ Docs: `AGENTS.md`, `FACTORY*.md`, plans, product-marketing
+3. ✅ `.cursor/rules/factory.mdc` + MCP inspo; ruleset `main-factory` (PR required); protection + CI `no-price-leak`
+4. ✅ `.agents/skills-local/pr-review` + PR template  
+   Marketingskills: install via `npx skills add` (not committed symlink)  
+   **Solo caveat:** required approvals = 0 until Phase B Hashbrown account; then set to 1
 ### Phase B — Named bots (Grok and/or Hermes profiles)
 
 | Bot | SOUL hard rules |
