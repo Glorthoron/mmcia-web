@@ -38,5 +38,7 @@ Open folder in **Cursor**. Confirm MCP `inspo` green. Read `AGENTS.md` before co
 
 ## Status
 
-Phase A (repo + rules + protection): in progress at first push.  
+Phase A (repo + rules + protection): **done** (public repo so free GitHub can enforce branch protection; private would need Pro).  
 Site scaffold: not started (await domain/contact + go).
+
+**Repo:** https://github.com/Glorthoron/mmcia-web

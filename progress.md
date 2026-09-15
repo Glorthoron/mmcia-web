@@ -50,3 +50,17 @@
 - Phase A: GitHub repo + branch protection + `.cursor/rules`
 - Phase B: profiles/bots Tater + Hashbrown
 - Then prove one tiny PR loop live
+
+## 2026-09-16 — Phase A executed
+
+### Done
+1. GitHub repo **public** `https://github.com/Glorthoron/mmcia-web` (private branch protection needs Pro; public = free enforce).
+2. Initial commit factory docs + Cursor rule + MCP + Hashbrown skill + gitignore (no jefe blobs / vendor symlink).
+3. `.cursor/rules/factory.mdc` alwaysApply.
+4. `.agents/skills-local/pr-review` + `.github/PULL_REQUEST_TEMPLATE.md`.
+5. CI `factory-gate.yml` job `no-price-leak`.
+6. Branch protection on `main`: 1 approving review, dismiss stale, enforce admins, no force/delete, required check `no-price-leak`.
+
+### Next
+- Phase B when Samuel says go: Tater + Hashbrown profiles/bots
+- Prove one tiny PR loop (Phase F mini)
